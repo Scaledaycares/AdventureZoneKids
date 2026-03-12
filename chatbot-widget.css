@@ -400,13 +400,19 @@ a:hover {
 /* Your existing CSS here */
 
 @media screen and (max-width: 768px) {
+  
+@media screen and (max-width: 768px) {
    #chat-widget{
     position:fixed;
     bottom:50px;
   }
-   #calendly-widget-container{
-    transform:scale(0.85);
+ #chatbot-toggle{
+    right:0px;
   }
+  #calendly-widget-container {
+  transform:scale(0.8)
+   }
+}
 }
 
 #link{
